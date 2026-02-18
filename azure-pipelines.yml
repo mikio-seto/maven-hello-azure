@@ -69,4 +69,4 @@ jobs:
                    #curl.exe -fLg -H "Authorization: Bearer $(JF_ACCESS_TOKEN)" $url -o frogbot.exe
                    Invoke-WebRequest -Uri $url -Headers @{ "Authorization" = "Bearer $(JF_ACCESS_TOKEN)" } -OutFile "frogbot.exe"
                }
-               .\frogbot spr
+               .\frogbot scan-repository
