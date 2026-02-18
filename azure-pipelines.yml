@@ -51,6 +51,8 @@ jobs:
             JF_ACCESS_TOKEN: $(JF_ACCESS_TOKEN)
             JF_GIT_TOKEN: $(JF_GIT_TOKEN)
             JF_RELEASES_REPO: 'mikios-releases-jfrog-io'
+            JAVA_HOME: 'C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot'
+
          inputs:
             targetType: 'inline'
             script: |
