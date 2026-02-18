@@ -6,7 +6,7 @@ pr:
 trigger: none
 
 pool:
-  name: Default
+  name: Default # selfhosted VM
 
 variables:
   JF_GIT_PROJECT: $(System.TeamProject)
